@@ -140,7 +140,7 @@ function queryFunction() {
   } else
     $(".backBt").css("display", "inline-block");
 
-  if (page == total) {
+  if (page == total || page == 0) {
     $(".nextBt").css("display", "none");
 
   } else
