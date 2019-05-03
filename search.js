@@ -9,7 +9,7 @@ $(document).ready(function() {
   } else
     $(".backBt").css("display", "inline-block");
 
-  if (page == total || page == 0) {
+  if (page == total || total == 0) {
     $(".nextBt").css("display", "none");
 
   } else
@@ -140,7 +140,7 @@ function queryFunction() {
   } else
     $(".backBt").css("display", "inline-block");
 
-  if (page == total || page == 0) {
+  if (page == total || total == 0) {
     $(".nextBt").css("display", "none");
 
   } else
